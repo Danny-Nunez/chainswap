@@ -1,0 +1,29 @@
+.menu {
+    display: flex;
+    justify-content: center;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  li {
+    margin-right: 1rem;
+  }
+  
+  /* a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(155, 0, 198);
+  } */
+  
+  /* a:hover {
+
+    border: 1px solid rgb(155, 0, 198);
+  } */
+  

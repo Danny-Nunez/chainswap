@@ -1,0 +1,261 @@
+.transactions {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  width: 100%;
+  border-collapse: collapse;
+}
+.tableshell {
+  margin-bottom: 10px;
+}
+.transactions a:hover {
+  color: #ea0000;
+}
+.transactions tr:hover {
+  background-color: #ed02ce45;
+  text-align: center;
+}
+.transactions td,
+.transactions th {
+  border-bottom: 1px solid #c108fa;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.transactions th {
+  padding-top: 5px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.titleloader {
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+.titleloader img {
+  width: 120px;
+}
+.tabletitle {
+  font-weight: 900;
+  font-size: 14px;
+}
+
+.arvicon {
+  width: 100px;
+}
+.disclaimer {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  font-size: 14px;
+}
+.walletButton {
+  background-color: rgba(100, 148, 237, 0);
+  border: 1px solid rgb(171, 0, 187);
+  border-radius: 10px;
+  padding: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  color: #fff;
+}
+.walletButton:hover {
+  box-shadow: 10px 5px 5px rgba(174, 0, 255, 0.116);
+  background-color: rgba(219, 0, 208, 0.308);
+}
+.iconwallet {
+  display: inline-flex;
+  margin-right: 5px;
+  margin-bottom: -2px;
+  margin-top: 2px;
+}
+.closebut {
+  float: right;
+  background-color: #e0e0e000;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid rgb(171, 0, 187);
+  padding: 8px;
+  color: rgb(186, 0, 223);
+  margin: 5px;
+  cursor: pointer;
+}
+.closebut:hover {
+  background-color: rgba(13, 204, 252, 0.144);
+}
+.clearright {
+  clear: right;
+}
+
+.container {
+  padding: 0 2rem;
+}
+
+.i18n {
+  align-items: center;
+  column-gap: 0.5rem;
+  display: flex;
+  height: 2rem;
+  justify-content: flex-end;
+  margin-top: -20px;
+  margin-right: -15px;
+}
+
+.main {
+  min-height: 0vh;
+  padding: 0 0 2rem;
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.demo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 1rem 0;
+  gap: 2rem;
+}
+
+.connectors {
+  align-self: flex-start;
+  border-radius: 1em;
+}
+
+@keyframes spotlight {
+  10% {
+    background-color: #ad00f12a;
+  }
+  20% {
+    background-color: #ad00f150;
+  }
+}
+.widget-footer {
+  display: none;
+}
+.connectors:focus {
+  animation: 2.5s ease-out 1 spotlight;
+}
+
+.walletAddress {
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+.widget {
+  border-radius: 1rem;
+  height: 356px;
+  width: 360px;
+  border-color: #ab48e0;
+  border-style: none;
+  background-color: black;
+  /* box-shadow: 0 0 38px 8px #ab48e0; */
+  position: relative;
+  transform: translate(0);
+  transform-style: preserve-3d;
+}
+.widget:before {
+  content: '';
+  position: absolute;
+  inset: -5px;
+  transform: translate3d(1px, 2px, -1px);
+  background: conic-gradient(
+    from 90deg at 40% -25%,
+    #e00af8,
+    #e00af8,
+    #c716f8,
+    #743ff6,
+    #743ff6,
+    #743ff6,
+    #3f58f5,
+    #3f58f5,
+    #3f58f5,
+    #743ff6,
+    #743ff6,
+    #743ff6,
+    #c716f8,
+    #c716f8,
+    #e00af8,
+    #e00af8
+  );
+  filter: blur(10px);
+}
+.leftwrap {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 25px;
+  border-radius: 1rem;
+  height: 356px;
+  width: 360px;
+  border-color: #ab48e0;
+  border-style: none;
+  background-color: black;
+  /* box-shadow: 0 0 38px 8px #ab48e0; */
+  position: relative;
+  transform: translate(0);
+  transform-style: preserve-3d;
+}
+.leftwrap:before {
+  content: '';
+  position: absolute;
+  inset: -5px;
+  transform: translate3d(1px, 2px, -1px);
+  background: conic-gradient(
+    from 90deg at 40% -25%,
+    #e00af8,
+    #e00af8,
+    #c716f8,
+    #743ff6,
+    #743ff6,
+    #743ff6,
+    #3f58f5,
+    #3f58f5,
+    #3f58f5,
+    #743ff6,
+    #743ff6,
+    #743ff6,
+    #c716f8,
+    #c716f8,
+    #e00af8,
+    #e00af8
+  );
+  filter: blur(10px);
+}
+
+.rule {
+  border: 1px solid #1e48c9;
+  margin: 0;
+  width: calc(100% - 2rem);
+  max-width: 664px;
+}
+
+@media (max-width: 727px) {
+  .demo {
+    flex-direction: column;
+  }
+
+  .main {
+    margin-top: 5px;
+  }
+
+  .connectors {
+    align-self: center;
+  }
+}
+@media (max-width: 500px) {
+  .widget {
+    margin-top: -10px;
+  }
+}
